@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://img.freepik.com/premium-psd/sunny-rainy-cloudy-day-weather-forecast-icon-illustration_47987-10693.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .container{
+     max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px;
+  }
+  
+  #cityName{  
+      padding: 11px;
+      width: 70%;
+      margin-right: 0px;
+      border:groove;
+      border-style:none;
+      background-color: white;
+      border-radius: 16px;
+  }
+
+  #cityName:focus {
+    outline: none;
+  }
+  
+  #buttonId{
+    position:fixed;
+    padding:5px;
+    margin-left: 4px;
+    border:groove;
+    border-style: none;
+    background-color: hsl(279, 93%, 39%);
+    border-radius: 16px;
+  }
+  
+  #buttonId:hover{
+    background-color:orange;
+  }
+  
+  .material-icons{
+    color:lightblue;
+  }
+  
+  .title{    
+      text-transform: uppercase;
+      font-style: italic;
+      color: violet; 
+      margin-top:0px; 
+      text-align:center;
+      font-size:2.5rem;
+  }
+
+  .innerContainer{
+     padding-top: 180px;
+  }
+
+  .footerContainer{
+    background-color: aliceblue;
+    margin-top:5px;
+    padding:20px;
+    border-radius: 16px;
+    border:groove;
+    border-style:inset;
+    border-color: blueviolet;
+  }
+
+  .footerContainer:onhover{
+    transform: rotate3d(x,y,z,180deg);
+  }
